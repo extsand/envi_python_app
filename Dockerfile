@@ -1,4 +1,4 @@
-FROM alpine:3.11
+FROM alpine:3.15
 
 #example usage some commands:
 # docker build --build-arg app_username=$APP_USERNAME \
@@ -29,7 +29,7 @@ COPY . .
 
 RUN apk add --no-cache python3 py3-pip \
 		&& pip3 install --upgrade pip \
-		# && pip3 install Cython \
+		# && pip3 install Cython0.29.26 \
 		# && pip3 install pyjnius\
 		&& pip3 install --no-cache-dir -r /usr/src/app/requirements.txt
 
