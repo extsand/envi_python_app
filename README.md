@@ -5,10 +5,10 @@
 Example of env and data transmitting.
 
 ### How to use:
-1. put application environment to set_env.sh
-2. execute set_env
-3. build docker image
-4. run docker container
+1. Put application environment to set_env.sh
+2. Execute set_env
+3. Build docker image
+4. Run docker container
 5. Also you can use Automate_deploy.sh 
 
 ### Tech Stack
