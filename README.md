@@ -1,6 +1,6 @@
 ## Envi Python App
 <p align="center">
-	<img src="?raw=true" width="auto" height="auto">
+	<img src="https://github.com/extsand/envi_python_app/blob/main/static/envi_transmitting-min.png?raw=true" width="auto" height="auto">
 </p>
 Example of env and data transmitting
 
