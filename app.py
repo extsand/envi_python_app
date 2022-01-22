@@ -3,7 +3,7 @@ import os
 from flask import Flask, request
 from flask import render_template
 app = Flask(__name__)
-
+host="0.0.0.0"
 #Grab env from system:
 app_username = os.getenv("APP_USERNAME")
 app_db = os.getenv("APP_DB")
@@ -17,4 +17,4 @@ def get_index():
                            data_send=env_set)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host)
