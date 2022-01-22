@@ -10,4 +10,4 @@ echo '================================================='
 echo '===========Running Application==================='
 echo '================================================='
 
-docker run -it -p 8081:5000 env_transmitting:0.1
+docker run -it -p 5000:5000 env_transmitting:0.1
