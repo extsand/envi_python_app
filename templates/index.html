@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/main.css') }}">
+
+</head>
+<body>
+	<section class="container">
+	    <div class="main_content">
+            <div class="title">
+                Environment Example
+            </div>
+            <div class="content">
+                <div class="desc_text">
+                    This app allows showing environment variables from application settings.
+                    For example, you should add your value to the environment.<br><br>
+                    <b>Value naming is important</b> part of this application.
+                    See code sample bellow:<br><br>
+                    <div class="data_example">
+{#                        <b>export EXAMPLE_ENV="https://db.com:3442"</b>#}
+                        <b>export APP_USERNAME=HollyMolly</b>
+                        <br>
+                        <b>export APP_DB=https://db.com:3442</b>
+                        <br>
+                        <b>export APP_PASSWORD=bestpasswordever</b>
+                    </div>
+
+                </div>
+                <div class="data_set">
+                    <div class="data_set_title">
+                        Application output:
+                    </div>
+                    <div class="data_border">
+                        {% for item in data_send %}
+                            <div class="data_env">{{ item }}</div>
+                        {% endfor %}
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+	</section>
+
+</body>
+</html>
+
+
+
+
+
