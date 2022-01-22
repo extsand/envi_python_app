@@ -9,6 +9,7 @@ Example of env and data transmitting.
 2. execute set_env
 3. build docker image
 4. run docker container
+5. Also you can use Automate_deploy.sh 
 
 ### Tech Stack
 - Python Flask
