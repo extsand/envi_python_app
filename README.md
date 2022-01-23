@@ -11,6 +11,10 @@ Example of env and data transmitting.
 4. Run docker container
 5. Also you can use Automate_deploy.sh 
 
+### Script description
+- deploy.sh - build and run docker container
+- automate_deploy.sh - 
+
 ### Tech Stack
 - Python Flask
 - Docker
