@@ -12,11 +12,16 @@ Example of env and data transmitting.
 5. Also you can use Automate_deploy.sh 
 
 ### Script description
+- set_env.sh - set demonstration varibles
+- set_env_aws_ssm.sh - set varibles from AWS Parameter Store
 - deploy.sh - build and run docker container
-- automate_deploy.sh - 
+- automate_deploy.sh - auto set env and deploy
+
 
 ### Tech Stack
 - Python Flask
 - Docker
 - Bash
+- AWS Systems Manager
+- AWS Parameter Store
 

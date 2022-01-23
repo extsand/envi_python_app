@@ -9,7 +9,7 @@ html, body {
     background-color: #003C3C;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
-    font-size: 8px;
+    font-size: 9px;
 }
 @media only screen and (max-width: 992px) {
 	html, body {
