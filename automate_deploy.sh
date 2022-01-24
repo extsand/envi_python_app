@@ -1,6 +1,6 @@
 #!/bin/bash
 echo 'Automate deploy for Envi.Transmitting'
-bash . ./set_env.sh
+source ./set_env.sh
 echo '================================================='
 echo '===========Docker Buil Container================='
 echo '================================================='
